@@ -1,0 +1,17 @@
+{
+  "name": "entryway",
+  "version": "1.0.0",
+  "description": "Monorepo for Entryway - SvelteKit web app and Python bot",
+  "private": true,
+  "scripts": {},
+  "keywords": [],
+  "author": "Emily <NotAussie@duck.com>",
+  "license": "AGPL-3.0-or-later",
+  "packageManager": "pnpm@10.30.0",
+  "pnpm": {
+    "workspaces": [
+      "crates/web",
+      "crates/bot"
+    ]
+  }
+}
